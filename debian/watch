@@ -1,0 +1,3 @@
+version=3
+opts=uversionmangle=s/([\d\.]+)\.(\d{8})$/$1+$2/ \
+http://www.chuchusoft.com/par2_tbb/download.html par2cmdline-([\d\.]*)-tbb-(\d*).tar.gz

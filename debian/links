@@ -1,0 +1,4 @@
+# upstream buildsys installs the executable as 'par2verify'
+usr/bin/par2verify usr/bin/par2
+usr/bin/par2verify usr/bin/par2create
+usr/bin/par2verify usr/bin/par2repair

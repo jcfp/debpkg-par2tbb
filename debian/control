@@ -1,0 +1,25 @@
+Source: par2cmdline-tbb
+Section: utils
+Priority: extra
+Maintainer: JCF Ploemen (jcfp) <linux@jcf.pm>
+Build-Depends: debhelper (>= 9), dh-autoreconf, libtbb-dev
+Standards-Version: 3.9.6
+Homepage: http://www.chuchusoft.com/par2_tbb/
+Vcs-Git: git://github.com/jcfp/debpkg-par2tbb.git
+Vcs-Browser: https://github.com/jcfp/debpkg-par2tbb/
+
+Package: par2-tbb
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Conflicts: par2
+Description: multithreaded PAR 2.0 compatible file verification and repair tool
+ par2cmdline-tbb is a command line utility for creating and using PAR2 files
+ to detect and repair damage in data files. It is most commonly used as
+ part of backup systems as well as on Usenet. This version differs from the
+ regular par2 by supporting multithreaded processing via the TBB library to
+ increase performance.
+ .
+ In case files in a recovery set get damaged (e.g. while transmitted over
+ a network or stored on a faulty disk) the program can read the damaged
+ files and the (possibly damaged) PAR2 files, and regenerate the original
+ input files.
