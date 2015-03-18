@@ -12,6 +12,7 @@ Package: par2-tbb
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Conflicts: par2
+Provides: par2
 Description: multithreaded PAR 2.0 compatible file verification and repair tool
  par2cmdline-tbb is a command line utility for creating and using PAR2 files
  to detect and repair damage in data files. It is most commonly used as
