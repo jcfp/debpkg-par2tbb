@@ -1,7 +1,7 @@
 Source: par2cmdline-tbb
 Section: utils
 Priority: extra
-Maintainer: JCF Ploemen (jcfp) <linux@jcf.pm>
+Maintainer: jcfp <linux@jcf.pm>
 Build-Depends: debhelper (>= 9), dh-autoreconf, libtbb-dev
 Standards-Version: 3.9.6
 Homepage: http://www.chuchusoft.com/par2_tbb/
