@@ -1,5 +1,5 @@
 version=3
 opts=uversionmangle=s/([\d\.]+)\.(\d{8})$/$1+$2/ \
-https://github.com/jcfp/par2tbb-chuchusoft-sources/tags .*/([\d\.]*)-tbb-(\d*)\.tar\.gz
+https://github.com/jcfp/par2tbb-chuchusoft-sources/releases .*/par2cmdline-([\d\.]*)-tbb-(\d*)\.tar\.gz
 # chuchusoft website is just too unreliable
 #http://www.chuchusoft.com/par2_tbb/download.html par2cmdline-([\d\.]*)-tbb-(\d*).tar.gz
