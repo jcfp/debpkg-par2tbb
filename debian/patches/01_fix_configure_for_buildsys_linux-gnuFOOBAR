@@ -1,0 +1,13 @@
+# re: https://forums.sabnzbd.org/viewtopic.php?f=16&t=18793#p102718
+# configure couldn't handle --build=arm-linux-gnueabihf
+--- a/configure.ac
++++ b/configure.ac
+@@ -109,7 +109,7 @@
+ esac
+ 
+ case "$host" in
+-	*-*-linux-gnu)
++	*-*-linux-gnu*)
+ 		sys_linux=true
+ 		AM_CONDITIONAL(PLATFORM_LINUX, true)
+ 		AM_CONDITIONAL(PLATFORM_DARWIN, false)
