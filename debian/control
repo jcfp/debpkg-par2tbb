@@ -11,7 +11,7 @@ Vcs-Browser: https://github.com/jcfp/debpkg-par2tbb/
 Package: par2-tbb
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Conflicts: par2
+Conflicts: par2, par2-mt
 Provides: par2
 Description: multithreaded PAR 2.0 compatible file verification and repair tool
  par2cmdline-tbb is a command line utility for creating and using PAR2 files
